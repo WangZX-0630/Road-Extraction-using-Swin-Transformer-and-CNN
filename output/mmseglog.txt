@@ -1,0 +1,3 @@
+2022-03-16 19:58:25,331 - mmseg - INFO - Multi-processing start method is `None`
+2022-03-16 19:58:25,332 - mmseg - INFO - OpenCV num_threads is `<built-in function getNumThreads>
+2022-03-16 19:58:25,332 - mmseg - INFO - OMP num threads is 1

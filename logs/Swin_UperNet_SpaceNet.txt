@@ -1,0 +1,606 @@
+[00:11:03.425] Namespace(base_size=1300, batch_size=2, crop_size=1024, cuda=True, dist_init_method='env://', epochs=200, gpu_ids=[0, 1, 2, 3], local_rank=0, lr=4e-05, lr_scheduler='poly', model_name='Swin_UperNet_SpaceNet', no_cuda=False, num_classes=3, resume=None, seed=1234, use_balanced_weights=False, warmup_epochs=10, weight_decay=0.05, workers=4, working_dir='/root/SwinCNN_UperNet/')
+[00:11:09.952] 
+=>Epoches 1, learning rate = 0.0000010,                     previous best = 0.0000
+[00:13:24.747] Namespace(base_size=1300, batch_size=3, crop_size=1024, cuda=True, dist_init_method='env://', epochs=200, gpu_ids=[0, 1, 2, 3], local_rank=0, lr=6e-05, lr_scheduler='poly', model_name='Swin_UperNet_SpaceNet', no_cuda=False, num_classes=2, resume=None, seed=1234, use_balanced_weights=False, warmup_epochs=10, weight_decay=0.05, workers=4, working_dir='/root/SwinCNN_UperNet/')
+[00:13:30.949] 
+=>Epoches 1, learning rate = 0.0000010,                     previous best = 0.0000
+[00:19:12.567] Train: epoch:1, train_loss: 1.23854
+[00:19:40.549] Validation: Val_loss:1.0159477, Acc:0.6937054, Acc_class:0.6739089, mIoU:0.4193373, IoU:0.1696058, Precision:0.1806973, Recall:0.6495926, F1:0.2827438
+[00:19:44.071] 
+=>Epoches 2, learning rate = 0.0000070,                     previous best = 0.1696
+[00:25:22.065] Train: epoch:2, train_loss: 0.99823
+[00:25:50.200] Validation: Val_loss:0.8276311, Acc:0.8086316, Acc_class:0.7040516, mIoU:0.5123162, IoU:0.2172718, Precision:0.2736221, Recall:0.5739270, F1:0.3705723
+[00:25:53.598] 
+=>Epoches 3, learning rate = 0.0000130,                     previous best = 0.2173
+[00:31:31.588] Train: epoch:3, train_loss: 0.87145
+[00:31:59.856] Validation: Val_loss:0.7620877, Acc:0.8611813, Acc_class:0.7422764, mIoU:0.5677923, IoU:0.2670031, Precision:0.3490517, Recall:0.5967155, F1:0.4404563
+[00:32:03.817] 
+=>Epoches 4, learning rate = 0.0000190,                     previous best = 0.2670
+[00:37:42.126] Train: epoch:4, train_loss: 0.83680
+[00:38:10.602] Validation: Val_loss:0.7260136, Acc:0.8911870, Acc_class:0.6795619, mIoU:0.5804855, IoU:0.2870834, Precision:0.4468556, Recall:0.4156754, F1:0.4307019
+[00:38:14.344] 
+=>Epoches 5, learning rate = 0.0000250,                     previous best = 0.2871
+[00:43:53.477] Train: epoch:5, train_loss: 0.80324
+[00:44:21.957] Validation: Val_loss:0.6622338, Acc:0.8756834, Acc_class:0.7177403, mIoU:0.5851732, IoU:0.3025681, Precision:0.4191517, Recall:0.5185211, F1:0.4635711
+[00:44:25.524] 
+=>Epoches 6, learning rate = 0.0000310,                     previous best = 0.3026
+[00:50:04.242] Train: epoch:6, train_loss: 0.77628
+[00:50:32.524] Validation: Val_loss:0.7004848, Acc:0.8457178, Acc_class:0.7564702, mIoU:0.5596593, IoU:0.2910637, Precision:0.3357236, Recall:0.6464238, F1:0.4419291
+[00:50:32.552] 
+=>Epoches 7, learning rate = 0.0000370,                     previous best = 0.3026
+[00:56:12.777] Train: epoch:7, train_loss: 0.74506
+[00:56:41.009] Validation: Val_loss:0.6593897, Acc:0.8885540, Acc_class:0.7201939, mIoU:0.5981782, IoU:0.3126566, Precision:0.4494047, Recall:0.5097588, F1:0.4776829
+[00:56:45.124] 
+=>Epoches 8, learning rate = 0.0000430,                     previous best = 0.3127
+[01:02:23.043] Train: epoch:8, train_loss: 0.72650
+[01:02:51.234] Validation: Val_loss:0.6029854, Acc:0.8903926, Acc_class:0.7639311, mIoU:0.6213200, IoU:0.3260859, Precision:0.4695132, Recall:0.6052112, F1:0.5287953
+[01:02:54.976] 
+=>Epoches 9, learning rate = 0.0000490,                     previous best = 0.3261
+[01:08:32.985] Train: epoch:9, train_loss: 0.70182
+[01:09:01.426] Validation: Val_loss:0.5880333, Acc:0.8970015, Acc_class:0.7749057, mIoU:0.6282473, IoU:0.3604889, Precision:0.4695254, Recall:0.6240660, F1:0.5358762
+[01:09:05.359] 
+=>Epoches 10, learning rate = 0.0000550,                     previous best = 0.3605
+[01:14:43.642] Train: epoch:10, train_loss: 0.68277
+[01:15:11.991] Validation: Val_loss:0.6401815, Acc:0.9032335, Acc_class:0.7082483, mIoU:0.6090541, IoU:0.3047286, Precision:0.5039381, Recall:0.4660447, F1:0.4842512
+[01:15:12.069] 
+=>Epoches 11, learning rate = 0.0000610,                     previous best = 0.3605
+[01:20:51.670] Train: epoch:11, train_loss: 0.62050
+[01:21:20.123] Validation: Val_loss:0.5847998, Acc:0.8981199, Acc_class:0.7613351, mIoU:0.6293639, IoU:0.3763743, Precision:0.4924182, Recall:0.5903280, F1:0.5369462
+[01:21:23.880] 
+=>Epoches 12, learning rate = 0.0000567,                     previous best = 0.3764
+[01:27:02.187] Train: epoch:12, train_loss: 0.60435
+[01:27:30.611] Validation: Val_loss:0.5857284, Acc:0.9071698, Acc_class:0.7377602, mIoU:0.6304169, IoU:0.3633718, Precision:0.5293830, Recall:0.5267394, F1:0.5280578
+[01:27:30.637] 
+=>Epoches 13, learning rate = 0.0000564,                     previous best = 0.3764
+[01:33:10.308] Train: epoch:13, train_loss: 0.58820
+[01:33:38.690] Validation: Val_loss:0.5736066, Acc:0.9008998, Acc_class:0.7757435, mIoU:0.6357949, IoU:0.3894896, Precision:0.4899329, Recall:0.6206029, F1:0.5475804
+[01:33:41.914] 
+=>Epoches 14, learning rate = 0.0000561,                     previous best = 0.3895
+[01:39:20.126] Train: epoch:14, train_loss: 0.57264
+[01:39:48.339] Validation: Val_loss:0.5738601, Acc:0.9030147, Acc_class:0.7830532, mIoU:0.6347422, IoU:0.3751338, Precision:0.4729152, Recall:0.6366179, F1:0.5426901
+[01:39:48.375] 
+=>Epoches 15, learning rate = 0.0000558,                     previous best = 0.3895
+[01:45:28.258] Train: epoch:15, train_loss: 0.56544
+[01:45:56.759] Validation: Val_loss:0.5415137, Acc:0.8964183, Acc_class:0.8065808, mIoU:0.6466975, IoU:0.3954094, Precision:0.4928653, Recall:0.6938493, F1:0.5763378
+[01:46:00.332] 
+=>Epoches 16, learning rate = 0.0000555,                     previous best = 0.3954
+[01:51:38.964] Train: epoch:16, train_loss: 0.56608
+[01:52:07.510] Validation: Val_loss:0.6350247, Acc:0.9106311, Acc_class:0.7555912, mIoU:0.6424822, IoU:0.3760705, Precision:0.5377762, Recall:0.5632112, F1:0.5501999
+[01:52:07.570] 
+=>Epoches 17, learning rate = 0.0000552,                     previous best = 0.3954
+[01:57:47.705] Train: epoch:17, train_loss: 0.57276
+[01:58:16.276] Validation: Val_loss:0.5222782, Acc:0.9219448, Acc_class:0.7711690, mIoU:0.6628623, IoU:0.3989115, Precision:0.5732088, Recall:0.5864813, F1:0.5797691
+[01:58:19.862] 
+=>Epoches 18, learning rate = 0.0000549,                     previous best = 0.3989
+[02:03:57.558] Train: epoch:18, train_loss: 0.54693
+[02:04:26.287] Validation: Val_loss:0.5050795, Acc:0.9147282, Acc_class:0.7927063, mIoU:0.6650108, IoU:0.4149790, Precision:0.5504361, Recall:0.6414528, F1:0.5924693
+[02:04:29.843] 
+=>Epoches 19, learning rate = 0.0000546,                     previous best = 0.4150
+[02:10:07.816] Train: epoch:19, train_loss: 0.53533
+[02:10:36.187] Validation: Val_loss:0.4973114, Acc:0.9111134, Acc_class:0.8229155, mIoU:0.6660407, IoU:0.4207781, Precision:0.5151901, Recall:0.7146184, F1:0.5987344
+[02:10:39.594] 
+=>Epoches 20, learning rate = 0.0000543,                     previous best = 0.4208
+[02:16:17.804] Train: epoch:20, train_loss: 0.51017
+[02:16:46.259] Validation: Val_loss:0.5022478, Acc:0.9173700, Acc_class:0.7856312, mIoU:0.6632691, IoU:0.4327077, Precision:0.5525294, Recall:0.6234938, F1:0.5858705
+[02:16:49.952] 
+=>Epoches 21, learning rate = 0.0000540,                     previous best = 0.4327
+[02:22:28.672] Train: epoch:21, train_loss: 0.52043
+[02:22:57.091] Validation: Val_loss:0.5596495, Acc:0.9117594, Acc_class:0.7627157, mIoU:0.6468467, IoU:0.4008589, Precision:0.5396366, Recall:0.5780595, F1:0.5581876
+[02:22:57.119] 
+=>Epoches 22, learning rate = 0.0000537,                     previous best = 0.4327
+[02:28:36.946] Train: epoch:22, train_loss: 0.57295
+[02:29:05.179] Validation: Val_loss:0.4974146, Acc:0.9166288, Acc_class:0.7900045, mIoU:0.6724828, IoU:0.4223771, Precision:0.5814878, Recall:0.6312116, F1:0.6053303
+[02:29:05.205] 
+=>Epoches 23, learning rate = 0.0000534,                     previous best = 0.4327
+[02:34:44.955] Train: epoch:23, train_loss: 0.51267
+[02:35:13.191] Validation: Val_loss:0.5467627, Acc:0.9013464, Acc_class:0.8144673, mIoU:0.6549959, IoU:0.4101601, Precision:0.5033302, Recall:0.7059813, F1:0.5876761
+[02:35:13.251] 
+=>Epoches 24, learning rate = 0.0000531,                     previous best = 0.4327
+[02:40:53.508] Train: epoch:24, train_loss: 0.50448
+[02:41:21.997] Validation: Val_loss:0.4961621, Acc:0.9063743, Acc_class:0.8331323, mIoU:0.6655776, IoU:0.4237750, Precision:0.5080626, Recall:0.7425119, F1:0.6033107
+[02:41:22.075] 
+=>Epoches 25, learning rate = 0.0000528,                     previous best = 0.4327
+[02:47:01.601] Train: epoch:25, train_loss: 0.49430
+[02:47:29.794] Validation: Val_loss:0.5745953, Acc:0.8969904, Acc_class:0.7662857, mIoU:0.6311962, IoU:0.3746198, Precision:0.4932657, Recall:0.6023544, F1:0.5423792
+[02:47:29.821] 
+=>Epoches 26, learning rate = 0.0000525,                     previous best = 0.4327
+[02:53:09.606] Train: epoch:26, train_loss: 0.50418
+[02:53:38.071] Validation: Val_loss:0.5226801, Acc:0.9171795, Acc_class:0.7821094, mIoU:0.6641327, IoU:0.4433302, Precision:0.5630698, Recall:0.6149218, F1:0.5878546
+[02:53:41.762] 
+=>Epoches 27, learning rate = 0.0000522,                     previous best = 0.4433
+[02:59:19.861] Train: epoch:27, train_loss: 0.48578
+[02:59:48.222] Validation: Val_loss:0.4509682, Acc:0.9164714, Acc_class:0.8265859, mIoU:0.6884832, IoU:0.4482679, Precision:0.5749312, Recall:0.7134904, F1:0.6367603
+[02:59:52.285] 
+=>Epoches 28, learning rate = 0.0000519,                     previous best = 0.4483
+[03:05:30.246] Train: epoch:28, train_loss: 0.47972
+[03:05:58.353] Validation: Val_loss:0.4867968, Acc:0.9167585, Acc_class:0.8210723, mIoU:0.6790057, IoU:0.4537653, Precision:0.5516601, Recall:0.7026907, F1:0.6180829
+[03:06:02.257] 
+=>Epoches 29, learning rate = 0.0000516,                     previous best = 0.4538
+[03:11:40.542] Train: epoch:29, train_loss: 0.48502
+[03:12:08.873] Validation: Val_loss:0.4674152, Acc:0.9169579, Acc_class:0.8122839, mIoU:0.6755343, IoU:0.4423651, Precision:0.5528331, Recall:0.6828943, F1:0.6110192
+[03:12:08.902] 
+=>Epoches 30, learning rate = 0.0000513,                     previous best = 0.4538
+[03:17:49.179] Train: epoch:30, train_loss: 0.51227
+[03:18:17.584] Validation: Val_loss:0.4754831, Acc:0.9142373, Acc_class:0.8113116, mIoU:0.6721668, IoU:0.4322116, Precision:0.5465335, Recall:0.6835928, F1:0.6074277
+[03:18:17.611] 
+=>Epoches 31, learning rate = 0.0000510,                     previous best = 0.4538
+[03:23:57.658] Train: epoch:31, train_loss: 0.47357
+[03:24:26.179] Validation: Val_loss:0.4855245, Acc:0.9198527, Acc_class:0.8082261, mIoU:0.6802416, IoU:0.4514665, Precision:0.5718602, Recall:0.6699464, F1:0.6170295
+[03:24:26.206] 
+=>Epoches 32, learning rate = 0.0000507,                     previous best = 0.4538
+[03:30:06.228] Train: epoch:32, train_loss: 0.46703
+[03:30:34.566] Validation: Val_loss:0.5150478, Acc:0.9195616, Acc_class:0.7846008, mIoU:0.6729643, IoU:0.4371168, Precision:0.5902115, Recall:0.6162744, F1:0.6029614
+[03:30:34.599] 
+=>Epoches 33, learning rate = 0.0000504,                     previous best = 0.4538
+[03:36:14.661] Train: epoch:33, train_loss: 0.47890
+[03:36:43.154] Validation: Val_loss:0.4707027, Acc:0.9232144, Acc_class:0.8150456, mIoU:0.6832704, IoU:0.4469655, Precision:0.5665378, Recall:0.6826642, F1:0.6192034
+[03:36:43.188] 
+=>Epoches 34, learning rate = 0.0000501,                     previous best = 0.4538
+[03:42:23.314] Train: epoch:34, train_loss: 0.45386
+[03:42:51.696] Validation: Val_loss:0.4669795, Acc:0.9162847, Acc_class:0.8270640, mIoU:0.6840958, IoU:0.4652626, Precision:0.5602046, Recall:0.7158334, F1:0.6285286
+[03:42:55.410] 
+=>Epoches 35, learning rate = 0.0000498,                     previous best = 0.4653
+[03:48:34.265] Train: epoch:35, train_loss: 0.46365
+[03:49:02.704] Validation: Val_loss:0.4915181, Acc:0.9144344, Acc_class:0.8423452, mIoU:0.6738440, IoU:0.4455321, Precision:0.5126289, Recall:0.7546732, F1:0.6105368
+[03:49:02.775] 
+=>Epoches 36, learning rate = 0.0000495,                     previous best = 0.4653
+[03:54:42.603] Train: epoch:36, train_loss: 0.46243
+[03:55:11.089] Validation: Val_loss:0.4619082, Acc:0.9220400, Acc_class:0.8168968, mIoU:0.6948332, IoU:0.4634222, Precision:0.6055611, Recall:0.6846729, F1:0.6426916
+[03:55:11.115] 
+=>Epoches 37, learning rate = 0.0000492,                     previous best = 0.4653
+[04:00:51.143] Train: epoch:37, train_loss: 0.44472
+[04:01:19.777] Validation: Val_loss:0.4727385, Acc:0.9206624, Acc_class:0.8304292, mIoU:0.6911354, IoU:0.4674651, Precision:0.5724104, Recall:0.7184875, F1:0.6371840
+[04:01:23.063] 
+=>Epoches 38, learning rate = 0.0000489,                     previous best = 0.4675
+[04:07:01.428] Train: epoch:38, train_loss: 0.46612
+[04:07:29.851] Validation: Val_loss:0.4924601, Acc:0.9222977, Acc_class:0.8181620, mIoU:0.6789920, IoU:0.4506923, Precision:0.5485627, Recall:0.6916164, F1:0.6118390
+[04:07:29.961] 
+=>Epoches 39, learning rate = 0.0000486,                     previous best = 0.4675
+[04:13:09.799] Train: epoch:39, train_loss: 0.46054
+[04:13:38.082] Validation: Val_loss:0.4578744, Acc:0.9220517, Acc_class:0.8278417, mIoU:0.6929762, IoU:0.4570541, Precision:0.5805560, Recall:0.7109249, F1:0.6391604
+[04:13:38.110] 
+=>Epoches 40, learning rate = 0.0000483,                     previous best = 0.4675
+[04:19:18.220] Train: epoch:40, train_loss: 0.44290
+[04:19:46.532] Validation: Val_loss:0.4286589, Acc:0.9198875, Acc_class:0.8474839, mIoU:0.6972932, IoU:0.4719457, Precision:0.5687745, Recall:0.7574124, F1:0.6496775
+[04:19:50.461] 
+=>Epoches 41, learning rate = 0.0000480,                     previous best = 0.4719
+[04:25:28.577] Train: epoch:41, train_loss: 0.44309
+[04:25:57.015] Validation: Val_loss:0.4508069, Acc:0.9245188, Acc_class:0.8284490, mIoU:0.6969979, IoU:0.4725577, Precision:0.5897187, Recall:0.7094737, F1:0.6440769
+[04:26:00.842] 
+=>Epoches 42, learning rate = 0.0000477,                     previous best = 0.4726
+[04:31:39.111] Train: epoch:42, train_loss: 0.44090
+[04:32:07.436] Validation: Val_loss:0.4964956, Acc:0.9203152, Acc_class:0.8242708, mIoU:0.6884605, IoU:0.4722095, Precision:0.5734161, Recall:0.7050379, F1:0.6324515
+[04:32:07.461] 
+=>Epoches 43, learning rate = 0.0000474,                     previous best = 0.4726
+[04:37:48.286] Train: epoch:43, train_loss: 0.43187
+[04:38:16.788] Validation: Val_loss:0.4534194, Acc:0.9251769, Acc_class:0.8372281, mIoU:0.6966428, IoU:0.4798189, Precision:0.5744251, Recall:0.7293787, F1:0.6426940
+[04:38:20.400] 
+=>Epoches 44, learning rate = 0.0000471,                     previous best = 0.4798
+[04:43:59.046] Train: epoch:44, train_loss: 0.44730
+[04:44:27.471] Validation: Val_loss:0.5076184, Acc:0.9183572, Acc_class:0.8182359, mIoU:0.6768140, IoU:0.4538757, Precision:0.5464340, Recall:0.6953623, F1:0.6119677
+[04:44:27.503] 
+=>Epoches 45, learning rate = 0.0000468,                     previous best = 0.4798
+[04:50:07.693] Train: epoch:45, train_loss: 0.45015
+[04:50:36.000] Validation: Val_loss:0.4217457, Acc:0.9213343, Acc_class:0.8356931, mIoU:0.6977167, IoU:0.4743874, Precision:0.5848336, Recall:0.7287074, F1:0.6488911
+[04:50:36.028] 
+=>Epoches 46, learning rate = 0.0000465,                     previous best = 0.4798
+[04:56:15.908] Train: epoch:46, train_loss: 0.44273
+[04:56:44.176] Validation: Val_loss:0.4484470, Acc:0.9186756, Acc_class:0.8295684, mIoU:0.6899516, IoU:0.4694804, Precision:0.5723894, Recall:0.7183563, F1:0.6371193
+[04:56:44.295] 
+=>Epoches 47, learning rate = 0.0000462,                     previous best = 0.4798
+[05:02:24.030] Train: epoch:47, train_loss: 0.42418
+[05:02:52.390] Validation: Val_loss:0.4350319, Acc:0.9266964, Acc_class:0.8151424, mIoU:0.6975985, IoU:0.4849845, Precision:0.6123404, Recall:0.6765626, F1:0.6428515
+[05:02:55.706] 
+=>Epoches 48, learning rate = 0.0000459,                     previous best = 0.4850
+[05:08:34.247] Train: epoch:48, train_loss: 0.41544
+[05:09:02.856] Validation: Val_loss:0.4220918, Acc:0.9316073, Acc_class:0.8422417, mIoU:0.7152316, IoU:0.4910965, Precision:0.6180377, Recall:0.7319317, F1:0.6701802
+[05:09:06.512] 
+=>Epoches 49, learning rate = 0.0000456,                     previous best = 0.4911
+[05:14:45.120] Train: epoch:49, train_loss: 0.42195
+[05:15:13.419] Validation: Val_loss:0.4350015, Acc:0.9282220, Acc_class:0.8423945, mIoU:0.7058680, IoU:0.4743283, Precision:0.5921319, Recall:0.7369201, F1:0.6566393
+[05:15:13.444] 
+=>Epoches 50, learning rate = 0.0000453,                     previous best = 0.4911
+[05:20:53.506] Train: epoch:50, train_loss: 0.43341
+[05:21:22.065] Validation: Val_loss:0.4668143, Acc:0.9204983, Acc_class:0.8166994, mIoU:0.6871632, IoU:0.4637487, Precision:0.5809702, Recall:0.6874843, F1:0.6297552
+[05:21:22.100] 
+=>Epoches 51, learning rate = 0.0000450,                     previous best = 0.4911
+[05:27:01.552] Train: epoch:51, train_loss: 0.43071
+[05:27:29.778] Validation: Val_loss:0.4770281, Acc:0.9096959, Acc_class:0.8459531, mIoU:0.6785757, IoU:0.4591386, Precision:0.5279060, Recall:0.7666181, F1:0.6252527
+[05:27:29.871] 
+=>Epoches 52, learning rate = 0.0000447,                     previous best = 0.4911
+[05:33:09.808] Train: epoch:52, train_loss: 0.48420
+[05:33:38.267] Validation: Val_loss:0.6162760, Acc:0.9155974, Acc_class:0.7495834, mIoU:0.6456083, IoU:0.3890241, Precision:0.5574942, Recall:0.5445858, F1:0.5509644
+[05:33:38.297] 
+=>Epoches 53, learning rate = 0.0000444,                     previous best = 0.4911
+[05:39:17.994] Train: epoch:53, train_loss: 0.45006
+[05:39:46.494] Validation: Val_loss:0.4456642, Acc:0.9277426, Acc_class:0.8438923, mIoU:0.7018637, IoU:0.4816526, Precision:0.5781323, Recall:0.7415432, F1:0.6497205
+[05:39:46.520] 
+=>Epoches 54, learning rate = 0.0000441,                     previous best = 0.4911
+[05:45:26.983] Train: epoch:54, train_loss: 0.41659
+[05:45:55.300] Validation: Val_loss:0.4188035, Acc:0.9195807, Acc_class:0.8528830, mIoU:0.6995171, IoU:0.4829476, Precision:0.5687666, Recall:0.7697578, F1:0.6541719
+[05:45:55.327] 
+=>Epoches 55, learning rate = 0.0000438,                     previous best = 0.4911
+[05:51:35.280] Train: epoch:55, train_loss: 0.41515
+[05:52:03.653] Validation: Val_loss:0.4580520, Acc:0.9261881, Acc_class:0.8119853, mIoU:0.6986059, IoU:0.4870389, Precision:0.6231180, Recall:0.6691090, F1:0.6452951
+[05:52:03.682] 
+=>Epoches 56, learning rate = 0.0000435,                     previous best = 0.4911
+[05:57:43.542] Train: epoch:56, train_loss: 0.42683
+[05:58:11.964] Validation: Val_loss:0.4679056, Acc:0.9267925, Acc_class:0.8411767, mIoU:0.7080425, IoU:0.4833946, Precision:0.6026053, Recall:0.7347849, F1:0.6621632
+[05:58:11.996] 
+=>Epoches 57, learning rate = 0.0000432,                     previous best = 0.4911
+[06:03:52.213] Train: epoch:57, train_loss: 0.41445
+[06:04:20.806] Validation: Val_loss:0.4613247, Acc:0.9256449, Acc_class:0.8259725, mIoU:0.6933765, IoU:0.4937199, Precision:0.5801572, Recall:0.7037335, F1:0.6359981
+[06:04:24.485] 
+=>Epoches 58, learning rate = 0.0000429,                     previous best = 0.4937
+[06:10:02.837] Train: epoch:58, train_loss: 0.40919
+[06:10:31.266] Validation: Val_loss:0.4143634, Acc:0.9249174, Acc_class:0.8363048, mIoU:0.7074455, IoU:0.4970015, Precision:0.6108784, Recall:0.7250099, F1:0.6630687
+[06:10:35.003] 
+=>Epoches 59, learning rate = 0.0000426,                     previous best = 0.4970
+[06:16:13.555] Train: epoch:59, train_loss: 0.41144
+[06:16:41.932] Validation: Val_loss:0.4233887, Acc:0.9256993, Acc_class:0.8370039, mIoU:0.7057299, IoU:0.4906041, Precision:0.6031404, Recall:0.7264487, F1:0.6590767
+[06:16:41.964] 
+=>Epoches 60, learning rate = 0.0000423,                     previous best = 0.4970
+[06:22:21.686] Train: epoch:60, train_loss: 0.39496
+[06:22:50.198] Validation: Val_loss:0.4161942, Acc:0.9275974, Acc_class:0.8406183, mIoU:0.7131714, IoU:0.4939081, Precision:0.6190302, Recall:0.7316894, F1:0.6706615
+[06:22:50.225] 
+=>Epoches 61, learning rate = 0.0000420,                     previous best = 0.4970
+[06:28:30.327] Train: epoch:61, train_loss: 0.41276
+[06:28:58.956] Validation: Val_loss:0.4084594, Acc:0.9237614, Acc_class:0.8410448, mIoU:0.7059549, IoU:0.4985466, Precision:0.5998960, Recall:0.7373754, F1:0.6615688
+[06:29:02.638] 
+=>Epoches 62, learning rate = 0.0000417,                     previous best = 0.4985
+[06:34:41.570] Train: epoch:62, train_loss: 0.41432
+[06:35:10.016] Validation: Val_loss:0.4161768, Acc:0.9262047, Acc_class:0.8490654, mIoU:0.7018903, IoU:0.4878702, Precision:0.5730172, Recall:0.7546782, F1:0.6514199
+[06:35:10.043] 
+=>Epoches 63, learning rate = 0.0000414,                     previous best = 0.4985
+[06:40:50.230] Train: epoch:63, train_loss: 0.41509
+[06:41:18.834] Validation: Val_loss:0.4386096, Acc:0.9311710, Acc_class:0.8275958, mIoU:0.7064506, IoU:0.4917866, Precision:0.6144655, Recall:0.7003137, F1:0.6545869
+[06:41:18.866] 
+=>Epoches 64, learning rate = 0.0000411,                     previous best = 0.4985
+[06:47:00.302] Train: epoch:64, train_loss: 0.44099
+[06:47:28.722] Validation: Val_loss:0.4228653, Acc:0.9330929, Acc_class:0.8404726, mIoU:0.7105060, IoU:0.4829455, Precision:0.6038487, Recall:0.7277284, F1:0.6600261
+[06:47:28.752] 
+=>Epoches 65, learning rate = 0.0000408,                     previous best = 0.4985
+[06:53:08.770] Train: epoch:65, train_loss: 0.46019
+[06:53:37.185] Validation: Val_loss:0.4215917, Acc:0.9319079, Acc_class:0.8245686, mIoU:0.7121191, IoU:0.4930466, Precision:0.6392138, Recall:0.6912521, F1:0.6642153
+[06:53:37.213] 
+=>Epoches 66, learning rate = 0.0000405,                     previous best = 0.4985
+[06:59:17.632] Train: epoch:66, train_loss: 0.41078
+[06:59:46.033] Validation: Val_loss:0.4178661, Acc:0.9246609, Acc_class:0.8431176, mIoU:0.7072444, IoU:0.4984598, Precision:0.5996872, Recall:0.7411949, F1:0.6629742
+[06:59:46.061] 
+=>Epoches 67, learning rate = 0.0000402,                     previous best = 0.4985
+[07:05:26.515] Train: epoch:67, train_loss: 0.39463
+[07:05:54.984] Validation: Val_loss:0.4261221, Acc:0.9197240, Acc_class:0.8431623, mIoU:0.6996601, IoU:0.5003969, Precision:0.5820051, Recall:0.7470560, F1:0.6542821
+[07:05:58.966] 
+=>Epoches 68, learning rate = 0.0000399,                     previous best = 0.5004
+[07:11:37.960] Train: epoch:68, train_loss: 0.40594
+[07:12:06.171] Validation: Val_loss:0.4446528, Acc:0.9255928, Acc_class:0.8205862, mIoU:0.7029122, IoU:0.4907379, Precision:0.6226430, Recall:0.6886330, F1:0.6539775
+[07:12:06.201] 
+=>Epoches 69, learning rate = 0.0000396,                     previous best = 0.5004
+[07:17:45.891] Train: epoch:69, train_loss: 0.40560
+[07:18:14.104] Validation: Val_loss:0.4335859, Acc:0.9374001, Acc_class:0.8190330, mIoU:0.7140723, IoU:0.4937499, Precision:0.6502029, Recall:0.6743545, F1:0.6620585
+[07:18:14.132] 
+=>Epoches 70, learning rate = 0.0000393,                     previous best = 0.5004
+[07:23:53.813] Train: epoch:70, train_loss: 0.40571
+[07:24:22.179] Validation: Val_loss:0.4114748, Acc:0.9283021, Acc_class:0.8405909, mIoU:0.7100551, IoU:0.5016349, Precision:0.6081157, Recall:0.7317907, F1:0.6642455
+[07:24:25.975] 
+=>Epoches 71, learning rate = 0.0000390,                     previous best = 0.5016
+[07:30:04.939] Train: epoch:71, train_loss: 0.40743
+[07:30:33.140] Validation: Val_loss:0.4345950, Acc:0.9270404, Acc_class:0.8249841, mIoU:0.7014277, IoU:0.4984442, Precision:0.6072735, Recall:0.6984077, F1:0.6496601
+[07:30:33.177] 
+=>Epoches 72, learning rate = 0.0000387,                     previous best = 0.5016
+[07:36:13.271] Train: epoch:72, train_loss: 0.41928
+[07:36:41.564] Validation: Val_loss:0.3994516, Acc:0.9349519, Acc_class:0.8382646, mIoU:0.7204435, IoU:0.5080259, Precision:0.6379502, Recall:0.7190720, F1:0.6760864
+[07:36:45.615] 
+=>Epoches 73, learning rate = 0.0000384,                     previous best = 0.5080
+[07:42:24.415] Train: epoch:73, train_loss: 0.40220
+[07:42:52.648] Validation: Val_loss:0.4034329, Acc:0.9291544, Acc_class:0.8627445, mIoU:0.7156440, IoU:0.5026512, Precision:0.5919724, Recall:0.7810496, F1:0.6734922
+[07:42:52.672] 
+=>Epoches 74, learning rate = 0.0000381,                     previous best = 0.5080
+[07:48:33.022] Train: epoch:74, train_loss: 0.40007
+[07:49:01.588] Validation: Val_loss:0.3953302, Acc:0.9316258, Acc_class:0.8317875, mIoU:0.7189586, IoU:0.5114987, Precision:0.6495664, Recall:0.7065663, F1:0.6768685
+[07:49:05.165] 
+=>Epoches 75, learning rate = 0.0000378,                     previous best = 0.5115
+[07:54:43.569] Train: epoch:75, train_loss: 0.40749
+[07:55:12.009] Validation: Val_loss:0.5226495, Acc:0.9214714, Acc_class:0.7847263, mIoU:0.6722311, IoU:0.4517027, Precision:0.5837732, Recall:0.6157444, F1:0.5993327
+[07:55:12.035] 
+=>Epoches 76, learning rate = 0.0000375,                     previous best = 0.5115
+[08:00:52.363] Train: epoch:76, train_loss: 0.41121
+[08:01:20.900] Validation: Val_loss:0.4109196, Acc:0.9286254, Acc_class:0.8530838, mIoU:0.7178683, IoU:0.5027293, Precision:0.6127720, Recall:0.7588834, F1:0.6780457
+[08:01:20.971] 
+=>Epoches 77, learning rate = 0.0000372,                     previous best = 0.5115
+[08:07:01.504] Train: epoch:77, train_loss: 0.39988
+[08:07:30.033] Validation: Val_loss:0.3739291, Acc:0.9341402, Acc_class:0.8461928, mIoU:0.7269438, IoU:0.5085995, Precision:0.6462206, Recall:0.7365900, F1:0.6884524
+[08:07:30.074] 
+=>Epoches 78, learning rate = 0.0000369,                     previous best = 0.5115
+[08:13:10.382] Train: epoch:78, train_loss: 0.38997
+[08:13:38.848] Validation: Val_loss:0.3881384, Acc:0.9403766, Acc_class:0.8376356, mIoU:0.7283254, IoU:0.5139876, Precision:0.6590790, Recall:0.7120803, F1:0.6845553
+[08:13:42.464] 
+=>Epoches 79, learning rate = 0.0000366,                     previous best = 0.5140
+[08:19:20.406] Train: epoch:79, train_loss: 0.40155
+[08:19:48.762] Validation: Val_loss:0.4088056, Acc:0.9339435, Acc_class:0.8281103, mIoU:0.7186670, IoU:0.5127535, Precision:0.6528262, Recall:0.6964707, F1:0.6739426
+[08:19:48.787] 
+=>Epoches 80, learning rate = 0.0000363,                     previous best = 0.5140
+[08:25:29.108] Train: epoch:80, train_loss: 0.39570
+[08:25:57.568] Validation: Val_loss:0.3966038, Acc:0.9310383, Acc_class:0.8507135, mIoU:0.7213196, IoU:0.5143847, Precision:0.6242969, Recall:0.7507159, F1:0.6816949
+[08:26:01.334] 
+=>Epoches 81, learning rate = 0.0000360,                     previous best = 0.5144
+[08:31:40.267] Train: epoch:81, train_loss: 0.38843
+[08:32:08.782] Validation: Val_loss:0.4729072, Acc:0.9334778, Acc_class:0.8267805, mIoU:0.7104377, IoU:0.4968658, Precision:0.6267653, Recall:0.6958374, F1:0.6594977
+[08:32:08.811] 
+=>Epoches 82, learning rate = 0.0000357,                     previous best = 0.5144
+[08:37:48.679] Train: epoch:82, train_loss: 0.39564
+[08:38:17.295] Validation: Val_loss:0.3901939, Acc:0.9356702, Acc_class:0.8528761, mIoU:0.7291778, IoU:0.5179127, Precision:0.6399443, Recall:0.7504686, F1:0.6908137
+[08:38:21.147] 
+=>Epoches 83, learning rate = 0.0000354,                     previous best = 0.5179
+[08:43:59.786] Train: epoch:83, train_loss: 0.39160
+[08:44:28.253] Validation: Val_loss:0.4211786, Acc:0.9325309, Acc_class:0.8477376, mIoU:0.7199046, IoU:0.5105156, Precision:0.6228622, Recall:0.7429399, F1:0.6776226
+[08:44:28.281] 
+=>Epoches 84, learning rate = 0.0000351,                     previous best = 0.5179
+[08:50:08.422] Train: epoch:84, train_loss: 0.39100
+[08:50:36.879] Validation: Val_loss:0.5251396, Acc:0.9332674, Acc_class:0.8010457, mIoU:0.6933758, IoU:0.4735651, Precision:0.6153656, Recall:0.6406486, F1:0.6277526
+[08:50:36.906] 
+=>Epoches 85, learning rate = 0.0000348,                     previous best = 0.5179
+[08:56:17.203] Train: epoch:85, train_loss: 0.39736
+[08:56:45.611] Validation: Val_loss:0.3917024, Acc:0.9332139, Acc_class:0.8549014, mIoU:0.7236401, IoU:0.5078493, Precision:0.6223227, Recall:0.7581848, F1:0.6835683
+[08:56:45.638] 
+=>Epoches 86, learning rate = 0.0000345,                     previous best = 0.5179
+[09:02:25.769] Train: epoch:86, train_loss: 0.37986
+[09:02:54.184] Validation: Val_loss:0.3856323, Acc:0.9337503, Acc_class:0.8538409, mIoU:0.7269013, IoU:0.5167549, Precision:0.6334714, Recall:0.7546627, F1:0.6887767
+[09:02:54.209] 
+=>Epoches 87, learning rate = 0.0000342,                     previous best = 0.5179
+[09:08:35.088] Train: epoch:87, train_loss: 0.38018
+[09:09:03.610] Validation: Val_loss:0.4053227, Acc:0.9306192, Acc_class:0.8515648, mIoU:0.7180866, IoU:0.5096405, Precision:0.6134173, Recall:0.7536795, F1:0.6763530
+[09:09:03.640] 
+=>Epoches 88, learning rate = 0.0000339,                     previous best = 0.5179
+[09:14:43.609] Train: epoch:88, train_loss: 0.38199
+[09:15:12.024] Validation: Val_loss:0.3970744, Acc:0.9364593, Acc_class:0.8580136, mIoU:0.7289594, IoU:0.5200896, Precision:0.6300045, Recall:0.7617199, F1:0.6896293
+[09:15:15.853] 
+=>Epoches 89, learning rate = 0.0000336,                     previous best = 0.5201
+[09:20:53.994] Train: epoch:89, train_loss: 0.37523
+[09:21:22.320] Validation: Val_loss:0.4228110, Acc:0.9265543, Acc_class:0.8445510, mIoU:0.7098386, IoU:0.5090418, Precision:0.6033508, Recall:0.7424302, F1:0.6657039
+[09:21:22.349] 
+=>Epoches 90, learning rate = 0.0000333,                     previous best = 0.5201
+[09:27:02.630] Train: epoch:90, train_loss: 0.38834
+[09:27:31.079] Validation: Val_loss:0.4225229, Acc:0.9357035, Acc_class:0.8403342, mIoU:0.7176516, IoU:0.5142146, Precision:0.6240485, Recall:0.7239506, F1:0.6702976
+[09:27:31.110] 
+=>Epoches 91, learning rate = 0.0000330,                     previous best = 0.5201
+[09:33:11.245] Train: epoch:91, train_loss: 0.39210
+[09:33:39.681] Validation: Val_loss:0.3954015, Acc:0.9359674, Acc_class:0.8471081, mIoU:0.7276621, IoU:0.5216774, Precision:0.6446827, Recall:0.7372154, F1:0.6878510
+[09:33:43.435] 
+=>Epoches 92, learning rate = 0.0000327,                     previous best = 0.5217
+[09:39:21.927] Train: epoch:92, train_loss: 0.37801
+[09:39:50.324] Validation: Val_loss:0.3940518, Acc:0.9404196, Acc_class:0.8466996, mIoU:0.7331592, IoU:0.5182668, Precision:0.6579965, Recall:0.7318830, F1:0.6929758
+[09:39:50.349] 
+=>Epoches 93, learning rate = 0.0000324,                     previous best = 0.5217
+[09:45:30.724] Train: epoch:93, train_loss: 0.41112
+[09:45:59.125] Validation: Val_loss:0.4510731, Acc:0.9229132, Acc_class:0.8454956, mIoU:0.7032418, IoU:0.5019084, Precision:0.5858692, Recall:0.7490193, F1:0.6574741
+[09:45:59.153] 
+=>Epoches 94, learning rate = 0.0000321,                     previous best = 0.5217
+[09:51:39.766] Train: epoch:94, train_loss: 0.38453
+[09:52:08.217] Validation: Val_loss:0.4025421, Acc:0.9284105, Acc_class:0.8375656, mIoU:0.7149685, IoU:0.5160486, Precision:0.6291998, Recall:0.7234813, F1:0.6730549
+[09:52:08.243] 
+=>Epoches 95, learning rate = 0.0000318,                     previous best = 0.5217
+[09:57:48.204] Train: epoch:95, train_loss: 0.37301
+[09:58:16.660] Validation: Val_loss:0.3824584, Acc:0.9370862, Acc_class:0.8436462, mIoU:0.7259612, IoU:0.5205641, Precision:0.6439061, Recall:0.7287681, F1:0.6837139
+[09:58:16.688] 
+=>Epoches 96, learning rate = 0.0000315,                     previous best = 0.5217
+[10:03:56.791] Train: epoch:96, train_loss: 0.38053
+[10:04:24.995] Validation: Val_loss:0.4481973, Acc:0.9346537, Acc_class:0.8158151, mIoU:0.7143557, IoU:0.4989991, Precision:0.6625786, Recall:0.6682864, F1:0.6654202
+[10:04:25.020] 
+=>Epoches 97, learning rate = 0.0000312,                     previous best = 0.5217
+[10:10:04.894] Train: epoch:97, train_loss: 0.37547
+[10:10:33.268] Validation: Val_loss:0.3821918, Acc:0.9343444, Acc_class:0.8416576, mIoU:0.7248969, IoU:0.5236869, Precision:0.6474528, Recall:0.7263422, F1:0.6846324
+[10:10:36.689] 
+=>Epoches 98, learning rate = 0.0000309,                     previous best = 0.5237
+[10:16:15.257] Train: epoch:98, train_loss: 0.37490
+[10:16:43.531] Validation: Val_loss:0.4113749, Acc:0.9374930, Acc_class:0.8660617, mIoU:0.7307686, IoU:0.5141911, Precision:0.6221116, Recall:0.7789417, F1:0.6917491
+[10:16:43.557] 
+=>Epoches 99, learning rate = 0.0000306,                     previous best = 0.5237
+[10:22:23.595] Train: epoch:99, train_loss: 0.38025
+[10:22:51.962] Validation: Val_loss:0.3768054, Acc:0.9340055, Acc_class:0.8449483, mIoU:0.7266987, IoU:0.5209627, Precision:0.6478308, Recall:0.7338414, F1:0.6881589
+[10:22:51.990] 
+=>Epoches 100, learning rate = 0.0000303,                     previous best = 0.5237
+[10:28:32.732] Train: epoch:100, train_loss: 0.38139
+[10:29:01.016] Validation: Val_loss:0.3634046, Acc:0.9359204, Acc_class:0.8558875, mIoU:0.7378800, IoU:0.5273628, Precision:0.6620191, Recall:0.7554257, F1:0.7056448
+[10:29:04.907] 
+=>Epoches 101, learning rate = 0.0000300,                     previous best = 0.5274
+[10:34:44.781] Train: epoch:101, train_loss: 0.37707
+[10:35:13.202] Validation: Val_loss:0.4062539, Acc:0.9309585, Acc_class:0.8509748, mIoU:0.7219486, IoU:0.5170255, Precision:0.6259406, Recall:0.7512552, F1:0.6828965
+[10:35:13.232] 
+=>Epoches 102, learning rate = 0.0000297,                     previous best = 0.5274
+[10:40:53.631] Train: epoch:102, train_loss: 0.37374
+[10:41:22.296] Validation: Val_loss:0.3806101, Acc:0.9393521, Acc_class:0.8602920, mIoU:0.7335413, IoU:0.5248819, Precision:0.6370836, Recall:0.7637964, F1:0.6947093
+[10:41:22.383] 
+=>Epoches 103, learning rate = 0.0000294,                     previous best = 0.5274
+[10:47:02.267] Train: epoch:103, train_loss: 0.37121
+[10:47:30.855] Validation: Val_loss:0.3920606, Acc:0.9336219, Acc_class:0.8351658, mIoU:0.7223785, IoU:0.5181123, Precision:0.6521909, Recall:0.7122705, F1:0.6809080
+[10:47:30.896] 
+=>Epoches 104, learning rate = 0.0000291,                     previous best = 0.5274
+[10:53:11.410] Train: epoch:104, train_loss: 0.36422
+[10:53:39.872] Validation: Val_loss:0.3658344, Acc:0.9401001, Acc_class:0.8515808, mIoU:0.7399432, IoU:0.5284101, Precision:0.6716026, Recall:0.7418977, F1:0.7050022
+[10:53:43.616] 
+=>Epoches 105, learning rate = 0.0000288,                     previous best = 0.5284
+[10:59:22.210] Train: epoch:105, train_loss: 0.37194
+[10:59:50.563] Validation: Val_loss:0.3741296, Acc:0.9415163, Acc_class:0.8476827, mIoU:0.7340087, IoU:0.5292569, Precision:0.6576228, Recall:0.7332013, F1:0.6933586
+[10:59:54.614] 
+=>Epoches 106, learning rate = 0.0000285,                     previous best = 0.5293
+[11:05:32.609] Train: epoch:106, train_loss: 0.37207
+[11:06:01.042] Validation: Val_loss:0.4088560, Acc:0.9387591, Acc_class:0.8371837, mIoU:0.7227736, IoU:0.5150169, Precision:0.6429580, Recall:0.7134030, F1:0.6763512
+[11:06:01.069] 
+=>Epoches 107, learning rate = 0.0000282,                     previous best = 0.5293
+[11:11:40.958] Train: epoch:107, train_loss: 0.36948
+[11:12:09.277] Validation: Val_loss:0.3933961, Acc:0.9330891, Acc_class:0.8394694, mIoU:0.7209279, IoU:0.5312058, Precision:0.6397591, Recall:0.7230815, F1:0.6788732
+[11:12:13.112] 
+=>Epoches 108, learning rate = 0.0000279,                     previous best = 0.5312
+[11:17:51.374] Train: epoch:108, train_loss: 0.36642
+[11:18:19.685] Validation: Val_loss:0.4190970, Acc:0.9310292, Acc_class:0.8396526, mIoU:0.7174836, IoU:0.5264120, Precision:0.6305502, Recall:0.7258282, F1:0.6748428
+[11:18:19.711] 
+=>Epoches 109, learning rate = 0.0000276,                     previous best = 0.5312
+[11:23:59.250] Train: epoch:109, train_loss: 0.37497
+[11:24:27.652] Validation: Val_loss:0.3720452, Acc:0.9382546, Acc_class:0.8413192, mIoU:0.7348755, IoU:0.5293415, Precision:0.6771647, Recall:0.7204207, F1:0.6981233
+[11:24:27.676] 
+=>Epoches 110, learning rate = 0.0000273,                     previous best = 0.5312
+[11:30:07.588] Train: epoch:110, train_loss: 0.37592
+[11:30:35.890] Validation: Val_loss:0.3770729, Acc:0.9350256, Acc_class:0.8628923, mIoU:0.7316919, IoU:0.5206347, Precision:0.6323141, Recall:0.7736003, F1:0.6958580
+[11:30:35.921] 
+=>Epoches 111, learning rate = 0.0000270,                     previous best = 0.5312
+[11:36:15.738] Train: epoch:111, train_loss: 0.37395
+[11:36:44.208] Validation: Val_loss:0.4049479, Acc:0.9338573, Acc_class:0.8359980, mIoU:0.7237237, IoU:0.5239594, Precision:0.6549192, Recall:0.7137163, F1:0.6830548
+[11:36:44.232] 
+=>Epoches 112, learning rate = 0.0000267,                     previous best = 0.5312
+[11:42:23.541] Train: epoch:112, train_loss: 0.35968
+[11:42:51.887] Validation: Val_loss:0.3559616, Acc:0.9445450, Acc_class:0.8560384, mIoU:0.7444260, IoU:0.5309770, Precision:0.6724579, Recall:0.7481080, F1:0.7082686
+[11:42:51.918] 
+=>Epoches 113, learning rate = 0.0000264,                     previous best = 0.5312
+[11:48:32.032] Train: epoch:113, train_loss: 0.36063
+[11:49:00.453] Validation: Val_loss:0.4027340, Acc:0.9333237, Acc_class:0.8426326, mIoU:0.7268772, IoU:0.5297180, Precision:0.6535769, Recall:0.7288664, F1:0.6891715
+[11:49:00.488] 
+=>Epoches 114, learning rate = 0.0000261,                     previous best = 0.5312
+[11:54:40.848] Train: epoch:114, train_loss: 0.35747
+[11:55:09.297] Validation: Val_loss:0.3919169, Acc:0.9367103, Acc_class:0.8423461, mIoU:0.7311015, IoU:0.5312536, Precision:0.6640976, Recall:0.7247987, F1:0.6931217
+[11:55:13.026] 
+=>Epoches 115, learning rate = 0.0000258,                     previous best = 0.5313
+[12:00:51.100] Train: epoch:115, train_loss: 0.35632
+[12:01:19.445] Validation: Val_loss:0.4073403, Acc:0.9296799, Acc_class:0.8501928, mIoU:0.7174255, IoU:0.5293879, Precision:0.6145935, Recall:0.7514032, F1:0.6761474
+[12:01:19.471] 
+=>Epoches 116, learning rate = 0.0000255,                     previous best = 0.5313
+[12:06:59.775] Train: epoch:116, train_loss: 0.36541
+[12:07:28.248] Validation: Val_loss:0.3855942, Acc:0.9328998, Acc_class:0.8450359, mIoU:0.7254628, IoU:0.5321941, Precision:0.6449767, Recall:0.7351448, F1:0.6871152
+[12:07:32.292] 
+=>Epoches 117, learning rate = 0.0000252,                     previous best = 0.5322
+[12:13:10.406] Train: epoch:117, train_loss: 0.36471
+[12:13:38.710] Validation: Val_loss:0.3837198, Acc:0.9364182, Acc_class:0.8513255, mIoU:0.7329253, IoU:0.5241486, Precision:0.6536946, Recall:0.7455142, F1:0.6965917
+[12:13:38.738] 
+=>Epoches 118, learning rate = 0.0000249,                     previous best = 0.5322
+[12:19:18.688] Train: epoch:118, train_loss: 0.35937
+[12:19:46.937] Validation: Val_loss:0.3726629, Acc:0.9357452, Acc_class:0.8468059, mIoU:0.7320801, IoU:0.5232334, Precision:0.6600423, Recall:0.7356618, F1:0.6958035
+[12:19:46.964] 
+=>Epoches 119, learning rate = 0.0000246,                     previous best = 0.5322
+[12:25:27.031] Train: epoch:119, train_loss: 0.36678
+[12:25:55.564] Validation: Val_loss:0.3731469, Acc:0.9347766, Acc_class:0.8518590, mIoU:0.7350371, IoU:0.5259002, Precision:0.6615575, Recall:0.7475000, F1:0.7019078
+[12:25:55.598] 
+=>Epoches 120, learning rate = 0.0000243,                     previous best = 0.5322
+[12:31:35.601] Train: epoch:120, train_loss: 0.35572
+[12:32:04.006] Validation: Val_loss:0.3792968, Acc:0.9318517, Acc_class:0.8449049, mIoU:0.7237440, IoU:0.5309588, Precision:0.6408712, Recall:0.7360181, F1:0.6851572
+[12:32:04.083] 
+=>Epoches 121, learning rate = 0.0000240,                     previous best = 0.5322
+[12:37:43.846] Train: epoch:121, train_loss: 0.35848
+[12:38:12.200] Validation: Val_loss:0.3865558, Acc:0.9309565, Acc_class:0.8495079, mIoU:0.7269872, IoU:0.5084230, Precision:0.6443977, Recall:0.7467281, F1:0.6917992
+[12:38:12.225] 
+=>Epoches 122, learning rate = 0.0000237,                     previous best = 0.5322
+[12:43:52.256] Train: epoch:122, train_loss: 0.36196
+[12:44:20.547] Validation: Val_loss:0.3889938, Acc:0.9363014, Acc_class:0.8449800, mIoU:0.7344823, IoU:0.5302882, Precision:0.6709302, Recall:0.7304107, F1:0.6994081
+[12:44:20.577] 
+=>Epoches 123, learning rate = 0.0000234,                     previous best = 0.5322
+[12:50:00.619] Train: epoch:123, train_loss: 0.35866
+[12:50:28.990] Validation: Val_loss:0.3786714, Acc:0.9317481, Acc_class:0.8541729, mIoU:0.7243181, IoU:0.5292797, Precision:0.6272631, Recall:0.7575556, F1:0.6862800
+[12:50:29.029] 
+=>Epoches 124, learning rate = 0.0000231,                     previous best = 0.5322
+[12:56:09.812] Train: epoch:124, train_loss: 0.36301
+[12:56:38.018] Validation: Val_loss:0.3785104, Acc:0.9373934, Acc_class:0.8509137, mIoU:0.7356190, IoU:0.5333893, Precision:0.6619989, Recall:0.7432445, F1:0.7002731
+[12:56:41.585] 
+=>Epoches 125, learning rate = 0.0000228,                     previous best = 0.5334
+[13:02:19.879] Train: epoch:125, train_loss: 0.36042
+[13:02:48.539] Validation: Val_loss:0.3911179, Acc:0.9326206, Acc_class:0.8409454, mIoU:0.7204362, IoU:0.5329887, Precision:0.6360459, Recall:0.7269806, F1:0.6784799
+[13:02:48.567] 
+=>Epoches 126, learning rate = 0.0000225,                     previous best = 0.5334
+[13:08:29.041] Train: epoch:126, train_loss: 0.34977
+[13:08:57.567] Validation: Val_loss:0.3818739, Acc:0.9401886, Acc_class:0.8519181, mIoU:0.7391850, IoU:0.5386810, Precision:0.6683700, Recall:0.7427857, F1:0.7036157
+[13:09:01.474] 
+=>Epoches 127, learning rate = 0.0000222,                     previous best = 0.5387
+[13:14:39.568] Train: epoch:127, train_loss: 0.34878
+[13:15:07.869] Validation: Val_loss:0.3788390, Acc:0.9349613, Acc_class:0.8448946, mIoU:0.7342219, IoU:0.5366049, Precision:0.6719330, Recall:0.7311948, F1:0.7003124
+[13:15:07.898] 
+=>Epoches 128, learning rate = 0.0000219,                     previous best = 0.5387
+[13:20:48.039] Train: epoch:128, train_loss: 0.36150
+[13:21:16.432] Validation: Val_loss:0.3791857, Acc:0.9369152, Acc_class:0.8553653, mIoU:0.7341370, IoU:0.5393490, Precision:0.6498889, Recall:0.7542511, F1:0.6981916
+[13:21:20.141] 
+=>Epoches 129, learning rate = 0.0000216,                     previous best = 0.5393
+[13:26:58.905] Train: epoch:129, train_loss: 0.36136
+[13:27:27.370] Validation: Val_loss:0.3804741, Acc:0.9333712, Acc_class:0.8432566, mIoU:0.7300552, IoU:0.5097525, Precision:0.6630513, Recall:0.7295014, F1:0.6946909
+[13:27:27.453] 
+=>Epoches 130, learning rate = 0.0000213,                     previous best = 0.5393
+[13:33:07.543] Train: epoch:130, train_loss: 0.36080
+[13:33:35.949] Validation: Val_loss:0.3714491, Acc:0.9388435, Acc_class:0.8457862, mIoU:0.7349134, IoU:0.5383895, Precision:0.6675714, Recall:0.7304537, F1:0.6975984
+[13:33:35.981] 
+=>Epoches 131, learning rate = 0.0000210,                     previous best = 0.5393
+[13:39:16.412] Train: epoch:131, train_loss: 0.34711
+[13:39:44.798] Validation: Val_loss:0.3985083, Acc:0.9311494, Acc_class:0.8532124, mIoU:0.7210299, IoU:0.5221409, Precision:0.6193253, Recall:0.7564736, F1:0.6810636
+[13:39:44.823] 
+=>Epoches 132, learning rate = 0.0000207,                     previous best = 0.5393
+[13:45:25.057] Train: epoch:132, train_loss: 0.35762
+[13:45:53.689] Validation: Val_loss:0.3912751, Acc:0.9388001, Acc_class:0.8357220, mIoU:0.7291846, IoU:0.5384789, Precision:0.6680597, Recall:0.7084352, F1:0.6876553
+[13:45:53.714] 
+=>Epoches 133, learning rate = 0.0000204,                     previous best = 0.5393
+[13:51:34.666] Train: epoch:133, train_loss: 0.34993
+[13:52:03.187] Validation: Val_loss:0.3650034, Acc:0.9398931, Acc_class:0.8460176, mIoU:0.7378098, IoU:0.5331405, Precision:0.6755755, Recall:0.7295968, F1:0.7015477
+[13:52:03.294] 
+=>Epoches 134, learning rate = 0.0000201,                     previous best = 0.5393
+[13:57:43.955] Train: epoch:134, train_loss: 0.34506
+[13:58:12.347] Validation: Val_loss:0.3612340, Acc:0.9353992, Acc_class:0.8614364, mIoU:0.7387866, IoU:0.5369412, Precision:0.6558002, Recall:0.7685737, F1:0.7077226
+[13:58:12.373] 
+=>Epoches 135, learning rate = 0.0000198,                     previous best = 0.5393
+[14:03:53.468] Train: epoch:135, train_loss: 0.34470
+[14:04:22.250] Validation: Val_loss:0.4008570, Acc:0.9378049, Acc_class:0.8390902, mIoU:0.7309519, IoU:0.5361895, Precision:0.6686671, Recall:0.7164929, F1:0.6917544
+[14:04:22.283] 
+=>Epoches 136, learning rate = 0.0000195,                     previous best = 0.5393
+[14:10:03.336] Train: epoch:136, train_loss: 0.34437
+[14:10:32.021] Validation: Val_loss:0.3499249, Acc:0.9411152, Acc_class:0.8630747, mIoU:0.7438293, IoU:0.5383138, Precision:0.6620347, Recall:0.7669002, F1:0.7106196
+[14:10:32.063] 
+=>Epoches 137, learning rate = 0.0000192,                     previous best = 0.5393
+[14:16:13.387] Train: epoch:137, train_loss: 0.35709
+[14:16:41.897] Validation: Val_loss:0.3598221, Acc:0.9411093, Acc_class:0.8521457, mIoU:0.7429391, IoU:0.5408998, Precision:0.6791574, Recall:0.7418343, F1:0.7091136
+[14:16:45.985] 
+=>Epoches 138, learning rate = 0.0000189,                     previous best = 0.5409
+[14:22:25.279] Train: epoch:138, train_loss: 0.34853
+[14:22:53.883] Validation: Val_loss:0.3710339, Acc:0.9387216, Acc_class:0.8515973, mIoU:0.7326869, IoU:0.5407712, Precision:0.6496692, Recall:0.7444927, F1:0.6938563
+[14:22:53.911] 
+=>Epoches 139, learning rate = 0.0000186,                     previous best = 0.5409
+[14:28:35.518] Train: epoch:139, train_loss: 0.35036
+[14:29:03.962] Validation: Val_loss:0.3943815, Acc:0.9434504, Acc_class:0.8513932, mIoU:0.7372298, IoU:0.5379939, Precision:0.6590055, Recall:0.7396898, F1:0.6970205
+[14:29:03.989] 
+=>Epoches 140, learning rate = 0.0000183,                     previous best = 0.5409
+[14:34:45.245] Train: epoch:140, train_loss: 0.35573
+[14:35:13.745] Validation: Val_loss:0.3816697, Acc:0.9389244, Acc_class:0.8442319, mIoU:0.7360934, IoU:0.5229690, Precision:0.6745480, Recall:0.7264920, F1:0.6995571
+[14:35:13.772] 
+=>Epoches 141, learning rate = 0.0000180,                     previous best = 0.5409
+[14:40:55.220] Train: epoch:141, train_loss: 0.35883
+[14:41:23.709] Validation: Val_loss:0.3734828, Acc:0.9394994, Acc_class:0.8417894, mIoU:0.7343507, IoU:0.5384057, Precision:0.6727507, Recall:0.7208422, F1:0.6959667
+[14:41:23.747] 
+=>Epoches 142, learning rate = 0.0000177,                     previous best = 0.5409
+[14:47:05.055] Train: epoch:142, train_loss: 0.34523
+[14:47:33.665] Validation: Val_loss:0.3746557, Acc:0.9431067, Acc_class:0.8540980, mIoU:0.7387455, IoU:0.5359741, Precision:0.6594355, Recall:0.7458190, F1:0.6999722
+[14:47:33.695] 
+=>Epoches 143, learning rate = 0.0000174,                     previous best = 0.5409
+[14:53:14.760] Train: epoch:143, train_loss: 0.35362
+[14:53:43.345] Validation: Val_loss:0.3928234, Acc:0.9397620, Acc_class:0.8488091, mIoU:0.7365114, IoU:0.5296405, Precision:0.6659553, Recall:0.7364742, F1:0.6994418
+[14:53:43.370] 
+=>Epoches 144, learning rate = 0.0000171,                     previous best = 0.5409
+[14:59:24.566] Train: epoch:144, train_loss: 0.34318
+[14:59:52.875] Validation: Val_loss:0.3860776, Acc:0.9414546, Acc_class:0.8578839, mIoU:0.7407162, IoU:0.5403525, Precision:0.6609398, Recall:0.7553150, F1:0.7049830
+[14:59:52.900] 
+=>Epoches 145, learning rate = 0.0000168,                     previous best = 0.5409
+[15:05:34.025] Train: epoch:145, train_loss: 0.33469
+[15:06:02.579] Validation: Val_loss:0.3967473, Acc:0.9363600, Acc_class:0.8466898, mIoU:0.7306187, IoU:0.5286039, Precision:0.6546526, Recall:0.7352932, F1:0.6926336
+[15:06:02.611] 
+=>Epoches 146, learning rate = 0.0000165,                     previous best = 0.5409
+[15:11:44.162] Train: epoch:146, train_loss: 0.35044
+[15:12:12.873] Validation: Val_loss:0.3781954, Acc:0.9373017, Acc_class:0.8541573, mIoU:0.7301772, IoU:0.5371688, Precision:0.6390215, Recall:0.7519669, F1:0.6909088
+[15:12:12.900] 
+=>Epoches 147, learning rate = 0.0000162,                     previous best = 0.5409
+[15:17:54.291] Train: epoch:147, train_loss: 0.33575
+[15:18:23.179] Validation: Val_loss:0.3791383, Acc:0.9404426, Acc_class:0.8489285, mIoU:0.7384827, IoU:0.5371341, Precision:0.6714287, Recall:0.7358350, F1:0.7021580
+[15:18:23.266] 
+=>Epoches 148, learning rate = 0.0000159,                     previous best = 0.5409
+[15:24:04.654] Train: epoch:148, train_loss: 0.34503
+[15:24:33.290] Validation: Val_loss:0.3715016, Acc:0.9404103, Acc_class:0.8352362, mIoU:0.7337122, IoU:0.5397107, Precision:0.6831112, Recall:0.7051322, F1:0.6939470
+[15:24:33.328] 
+=>Epoches 149, learning rate = 0.0000156,                     previous best = 0.5409
+[16:31:06.762] Namespace(base_size=1300, batch_size=2, crop_size=1024, cuda=True, dataset_basedir='/root/share/SpaceNet_dataset/', dataset_name='SpaceNet', dist_init_method='env://', distributed=False, epochs=200, gpu_nums=1, iters_to_accumulate=1, local_rank=0, loss_fn=[{'type': 'CrossEntropyLoss', 'loss_weight': 1.0}, {'type': 'DiceLoss', 'loss_weight': 1.0}], lr=0.0002, lr_scheduler='poly', model_name='Swin_UperNet', no_cuda=False, num_classes=2, resume=None, seed=1234, use_balanced_weights=False, warmup_epochs=10, weight_decay=0.05, workers=4, working_dir='/root/SwinCNN_UperNet/')
+[16:31:44.032] Namespace(base_size=1300, batch_size=2, crop_size=1024, cuda=True, dataset_basedir='/root/share/SpaceNet_dataset/', dataset_name='SpaceNet', dist_init_method='env://', distributed=False, epochs=200, gpu_nums=1, iters_to_accumulate=1, local_rank=0, loss_fn=[{'type': 'CrossEntropyLoss', 'loss_weight': 1.0}, {'type': 'DiceLoss', 'loss_weight': 1.0}], lr=0.0002, lr_scheduler='poly', model_name='Swin_UperNet', no_cuda=False, num_classes=2, resume=None, seed=1234, use_balanced_weights=False, warmup_epochs=10, weight_decay=0.05, workers=4, working_dir='/root/SwinCNN_UperNet/')
+[16:34:57.506] Namespace(base_size=1300, batch_size=2, crop_size=1024, cuda=True, dataset_basedir='/root/share/SpaceNet_dataset/', dataset_name='SpaceNet', dist_init_method='env://', distributed=False, epochs=200, gpu_nums=1, iters_to_accumulate=1, local_rank=0, loss_fn=[{'type': 'CrossEntropyLoss', 'loss_weight': 1.0}, {'type': 'DiceLoss', 'loss_weight': 1.0}], lr=0.0002, lr_scheduler='poly', model_name='Swin_UperNet', no_cuda=False, num_classes=2, resume=None, seed=1234, use_balanced_weights=False, warmup_epochs=10, weight_decay=0.05, workers=4, working_dir='/root/SwinCNN_UperNet/')
+[16:35:07.946] 
+=>Epoches 1, learning rate = 0.0000010,                     previous best = 0.0000
+[16:39:33.931] Namespace(base_size=1300, batch_size=2, crop_size=1024, cuda=True, dataset_basedir='/root/share/SpaceNet_dataset/', dataset_name='SpaceNet', dist_init_method='env://', distributed=False, epochs=200, gpu_nums=1, iters_to_accumulate=1, local_rank=0, loss_fn=[{'type': 'CrossEntropyLoss', 'loss_weight': 1.0}, {'type': 'DiceLoss', 'loss_weight': 1.0}], lr=0.0002, lr_scheduler='poly', model_name='Swin_UperNet', no_cuda=False, num_classes=2, resume=None, seed=1234, sync_bn=False, use_balanced_weights=False, warmup_epochs=10, weight_decay=0.05, workers=4, working_dir='/root/SwinCNN_UperNet/')
+[16:39:42.811] 
+=>Epoches 1, learning rate = 0.0000010,                     previous best = 0.0000
